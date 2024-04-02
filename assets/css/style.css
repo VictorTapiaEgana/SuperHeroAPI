@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'BADABB';
+    src: url('../font/BADABB__.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 800; 
+} 
+
+@font-face {
+    font-family: 'Webcomic';
+    src: url('../font/Webcomic.ttf') format('truetype');    
+} 
+
+
+.formato-fuente{
+    font-family: 'BADABB';
+    color: rgb(255, 255, 0);       
+    text-shadow: 4px 1px 0px rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+
+.t-10{
+    font-size: 10px;
+}
+.t-20{
+    font-size: 20px;
+}
+.t-30{
+    font-size: 30px;
+}
+.t-40{
+    font-size: 40px;
+}
+.t-50{
+    font-size: 50px;
+}
+
+body{ 
+    width: 100vw;
+    height: 100vh; 
+
+    background-image: url(../img/fondo/fondo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+}
+
+#HeroNumber{
+    width: 160px;
+    border-radius: 5px;
+}
+
+#ErrorIngreso{
+    font-family: 'BADABB';
+    color: red;   
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 25px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+form{    
+    border-radius: 10px;
+    width: 350px;
+    margin: 0 auto;    
+}
+
+#buscarHero{
+    position: relative;
+    top: -3px;
+    height: 30px;
+    padding: 0;
+    width: 100px;
+    margin-left: 5px;
+}
+
