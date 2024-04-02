@@ -46,6 +46,23 @@
     z-index: 1;
     width: 100vw;
 }
+.logo-navbar{
+    height: 50px;
+    width: 50px;
+}
+
+#navLink{
+    font-family: 'BADABB';
+    color: rgb(255, 255, 0);       
+    text-shadow: 1px 0px 15px rgb(0, 0, 0),         
+                     2px 2px 15px rgb(0, 0, 0),
+                     2px 2px 1px rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+
+#navLink:hover{
+    text-decoration: underline;
+}
 
 #resultados{
     border: 1px red solid;
