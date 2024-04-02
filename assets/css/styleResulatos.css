@@ -56,9 +56,9 @@
 #resultados{
     border: 1px green solid;    ;
     background-image: url(../img/fondo/fondo.gif);
-    background-repeat: round;
-    background-size:auto;
-    /* background-position: center; */
+    background-repeat:repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 #biografia{
@@ -112,7 +112,7 @@
 /* grafico */
 
 #graficoContainer{
-     margin-top: 50px;
+      margin-top: 50px; 
 }
 
 #grafico{
